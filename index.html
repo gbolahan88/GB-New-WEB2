@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3107d08b31.js" crossorigin="anonymous"></script>
+    <title>GB Exchange</title>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <link rel="stylesheet" href="scripts.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+  </head>
+
+  <body>
+    <nav>
+      <img class="logo" src="GB-LOGO-Blue.png">
+
+      <div>
+        <ul>
+          <div class=" cancel-btn">
+            <i class="fa-solid fa-times"></i>
+          </div>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="#">Check Rates</a></li>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      
+      
+      <!--<div class="nav-btn">
+        <a href="#" class="a-btn"><button class="nav-btn1">Sign In</button></a>
+        <a href="#" class="a-btn"><button class="nav-btn2" href="#">Sign Up</button></a>
+      </div>-->
+    </nav>
+
+    <section>
+      <div class="section1">
+        <h1>The Best Platform To <br><span>Sell Gift Cards In Nigeria</span><br>& Ghana At High Rates</h1>
+        <p>Our Platform allows you to sell any gift card at incredibly high rates<br>and receive payment in your bank account within 3 minutes.</p>
+      </div>
+    </section>
+    
+    <section>
+      <div class="section2">
+        <h4 class="blinking-text">24 Hour Customer Service!</h4>
+        <h1>New to crypto? Dazed?<br> Confused?</h1>
+        <p>Our friendly crypto-nerd army will help<br>you every step of the way.
+          <br>
+          <br>
+          GB Exchange dedicated support team is<br> on standby 24/7 to help via live chat on<br> the app or through email in the<br> language of your choice: Spanish, English,<br> French, Cryptonian.
+        </p>
+        <a href="https://wa.me/2348139498576"><button class="cnt-btn">Contact Us Now!</button></a>
+      </div>
+      <dotlottie-player class="lottie" src="https://lottie.host/2ce0fd77-5cb3-4fc9-92f9-b90ecff39e0a/opoDUGPosv.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+    </section>
+    
+    <section>
+      <div class="container">
+        <h1>Here Is What Makes Us Special</h1>
+        <p>We know gift card exchange can be a stressful experience which is why we made it our mission to transform the process into a<br> <b>WAHALA-FREE</b> and enjoyable one.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <div class="features text-center">
+            <div class="image position-relative d-inline-block blinking-text">
+              <img src="pen.svg" class="avatar avatar-small" alt="">
+            </div>
+              <div class="contents mt-4">
+                <h4 class="title-2">High Rates</h4>
+                  <p class="text-muted mb-0">Get the best rates and prices on any gift card. We ensure that you maximize your profits.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-12 mt-5 mt-sm-0">
+          <div class="features text-center">
+            <div class="image position-relative d-inline-block blinking-text">
+              <img src="video.svg" class="avatar avatar-small" alt="">
+            </div>
+              <div class="contents mt-4">
+                <h4 class="title-2">Beginner Friendly</h4>
+                  <p class="text-muted mb-0">You don't need to go through complicated processes, you can sell your gift card in a few clicks.</p>
+              </div>
+          </div>
+        </div>
+             <div class="col-md-4 col-12 mt-5 mt-sm-0">
+                 <div class="features text-center">
+                     <div class="image position-relative d-inline-block blinking-text"><img src="intellectual.svg" class="avatar avatar-small" alt=""></div>
+                 <div class="contents mt-4">
+                      <h4 class="title-2">Instant Payment</h4>
+                      <p class="text-muted mb-0">You will receive your payment within the same minute. Not to brag, but you can try it out.</p>
+                 </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <script>
+      const menu = document.querySelector("ul");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = ()=>{
+        menu.classList.add("active");
+        menuBtn.classList.add("hide");
+      }
+      cancelBtn.onclick = ()=>{
+        menu.classList.remove("active");
+        menuBtn.classList.remove("hide");
+      }
+    </script>
+    <footer>
+      <div class="footer-info">
+        <img class="footer-img" src="GB LOGO.png">
+        <p>We offer investors a variety of opportunities in<br> the digital assets industry. Our innovative<br> platform provides access for anyone seeking<br> investment returns anywhere, anytime. Our<br> ecosystem aims at making finance an everyday<br> enriching activity.</p>
+      </div>
+
+      <div class="about">
+        <h1>Contact us</h1>
+        <li><i class="fa-solid fa-phone"></i> <a href="https://wa.me/2348139498576">+234 8139498576</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="incorporatedgbexchange@gmail.com">incorporatedgbexchange@gmail.com</a></li>
+      </div>
+
+      <div class="support">
+        <h1>Useful Links</h1>
+        <li><a href="#">Terms and Conditions ></a></li>
+        <li><a href="#">Privacy Policy ></a></li>
+      </div>
+      <h2>&copy 2023 GB Exchange. All Right Reserved.</h2>
+    </footer>
+  </body>
+</html>
