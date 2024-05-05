@@ -110,8 +110,9 @@
   transition: 0.3s ease-in-out;
   }
   .lottie{
-    position: absolute;
-    margin-top: -600px;
+    position: relative;
+    margin-top: -500px;
+    margin-bottom: 100px;
     margin-left: 200px;
     width: 550px; 
     height: 500px;
