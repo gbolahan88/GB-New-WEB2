@@ -10,13 +10,11 @@
     color: rgb(141, 151, 240);
     transition: 0.5s ease-in-out;
   }
-.lottie{
-    position: relative;
-    margin-top: -500px;
-    margin-bottom: 100px;
-    margin-left: 200px;
-    width: 550px; 
-    height: 500px;
+  .logo{
+    width: 330px;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 100px;
   }
   .icon{
     display: block;
